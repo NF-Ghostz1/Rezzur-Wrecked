@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 
-// by Reece Brennan and Corodati Alexandru
+// by Reece Brennan
 namespace Rezzur_Wrecked
 {
     public class Enemy
@@ -55,7 +55,7 @@ namespace Rezzur_Wrecked
         #region Methods
         public void Initialize(Texture2D newTexture, Animation animation, Vector2 newPosition, Rectangle newRectangle, int left, int right, bool iRanged,Vector2 initialVel,  bool Still, SpriteEffects dir)
         {
-            // by Reece, updated by Alex
+            // by Reece Brennan
             texture = newTexture;
             EnemyAnimation = animation;
             position = newPosition; // sets enemy position
@@ -83,7 +83,7 @@ namespace Rezzur_Wrecked
             sourceRectangle = newRectangle;
    
         }
-        // by Alexandru
+        // by Reece Brennan
         public void Update(GameTime gameTime, Player player, EnemyManager EM, Sound SND)
         {
              
@@ -188,4 +188,4 @@ namespace Rezzur_Wrecked
     }
 }
 
-//basics by Reece / attack & collision by me
+// by  Reece Brennan
